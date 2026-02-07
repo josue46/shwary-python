@@ -1,6 +1,6 @@
 [project]
 name = "shwary-python"
-version = "1.0.1"
+version = "2.0.1"
 description = "SDK Python moderne (Async/Sync) pour l'API de paiement Shwary."
 readme = "README.md"
 authors = [
@@ -11,6 +11,7 @@ dependencies = [
     "httpx>=0.28.1",
     "phonenumbers>=9.0.22",
     "pydantic>=2.12.5",
+    "tenacity>=9.0.0",
 ]
 license = { text = "MIT" }
 keywords = ["shwary", "fintech", "payment", "mobile-money", "africa", "rdc", "kenya", "uganda"]
@@ -19,6 +20,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 5 - Production/Stable",
 ]
 
 [build-system]
