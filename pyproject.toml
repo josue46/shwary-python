@@ -1,6 +1,6 @@
 [project]
 name = "shwary-python"
-version = "2.0.1"
+version = "2.0.2"
 description = "SDK Python moderne (Async/Sync) pour l'API de paiement Shwary."
 readme = "README.md"
 authors = [
@@ -45,7 +45,10 @@ line-length = 88
 select = ["E", "F", "I"] # Erreurs, Flakes, et tris d'Imports
 
 [tool.hatch.build.targets.sdist]
-packages = ["src/shwary"]
+only-include = ["src/shwary"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/shwary"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""

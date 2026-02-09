@@ -6,7 +6,7 @@
 
 **Shwary Python** est une bibliothèque cliente moderne, asynchrone et performante pour l'intégration de l'API [Shwary](https://shwary.com). Elle permet d'initier des paiements Mobile Money en **RDC**, au **Kenya** et en **Ouganda** avec une validation stricte des données avant l'envoi.
 
-## Quoi de neuf dans la v2.0.0
+## Quoi de neuf dans la v2.0.2
 
 - **Retry automatique** : Les erreurs réseau transitoires (timeout, connexion) sont automatiquement retentées avec backoff exponentiel
 - **Types stricts** : TypedDict pour les réponses (`PaymentResponse`, `TransactionResponse`, `WebhookPayload`)
@@ -16,6 +16,7 @@
 - **Docstrings améliorées** : Documentation complète avec exemples d'utilisation
 - **Tests étendus** : Couverture complète des retries, erreurs et validations
 - **Modèles de réponse** : Schemas Pydantic pour les webhooks et transactions
+- **Correction des bugs** : Correction des imports et des bugs mineurs
 
 ## Caractéristiques
 
